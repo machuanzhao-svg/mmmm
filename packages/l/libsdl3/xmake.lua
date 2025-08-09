@@ -11,9 +11,8 @@ package("libsdl3")
         add_extsources("brew::sdl3")
     end
 
-    add_urls("https://github.com/libsdl-org/SDL.git", { alias = "github" })
+    add_urls("https://github.com/libsdl-org/SDL.git")
 
-    add_versions("github:main", "release-3.3.0")
 
     add_deps("cmake", "egl-headers", "opengl-headers")
 
