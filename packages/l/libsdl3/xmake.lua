@@ -13,7 +13,7 @@ package("mlibsdl3")
 
     add_urls("https://github.com/libsdl-org/SDL.git")
 
-    add_versions("github:main")
+    add_versions("github:3.3.0")
 
     add_deps("cmake", "egl-headers", "opengl-headers")
 
