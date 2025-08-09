@@ -1,4 +1,4 @@
-package("libsdl3")
+package("mlibsdl3")
     set_homepage("https://www.libsdl.org/")
     set_description("Simple DirectMedia Layer")
     set_license("zlib")
